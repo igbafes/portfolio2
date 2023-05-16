@@ -1,0 +1,98 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.navbar{
+    display: flex;
+     justify-content: space-between;
+ }
+
+ .navbar, a{
+   gap: 20px;
+   text-decoration: none;
+ }
+
+  .main{
+     margin-left: 150px;
+     margin-right: 70px;
+     margin-top: 10rem;
+    display: flex;
+    gap: 10px;
+     justify-content: space-around;
+  }
+ .socio{
+   position: relative;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 120px;
+    gap: 20px;
+    border-radius: 50%;
+ }
+
+  .socio a{
+   
+   border: 2px solid transparent;
+   width: 50%;
+   height: 10%;
+   padding: 25px;
+   border-radius: 50px;
+   background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, purple, violet), border-box;
+    border-radius: 50em;
+    }
+ .content{
+    margin-left: 40px;
+    margin-top: 6em;
+    font-size: 15px;
+    
+ }
+ .image1{
+    
+    border: 5px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, purple, violet), border-box;
+    border-radius: 50em;
+    height: 35vh;
+    width: 16vw;
+    margin-top: 100px;
+    margin-right: 70px;
+
+ }
+
+ p{
+    margin-right: 150px;
+    font-size: 18px;
+    width: 20vw;
+ }
+
+ .btn-btn{
+   margin: 45px;
+   background:linear-gradient(to right, rgb(138, 11, 115), violet), border-box;
+    border-radius: 50em;
+    padding: 10px;
+    width: 13vw;
+    height: 7vh;
+    color:white;
+    font-weight: large;
+ }
+
+ .dark{
+   background-color: black;
+   color: white;
+ }
+ .dom a{
+   color: darkred;
+ }
+ 
